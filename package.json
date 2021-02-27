@@ -26,6 +26,10 @@
     "chromedriver": "^88.0.0",
     "wdio-chromedriver-service": "^7.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angelikatulik/front-end-tests"
+  },
   "devDependencies": {
     "chai": "*",
     "mocha": "*"
