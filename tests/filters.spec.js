@@ -23,7 +23,7 @@ suite('Filters tests', () => {
         let isTagFoundInChats = ArchivesPage.AreTagsFoundInChats(tagOption);
         assert(isTagFoundInChats, 'Chats do not contain selected tag');
     });
-    test('chats can be filtered by by multiple tags', () => {
+    test('chats can be filtered by multiple tags', () => {
         let filter = 'Tag';
         let tagOptions = ['complaint', 'spam'];
 
